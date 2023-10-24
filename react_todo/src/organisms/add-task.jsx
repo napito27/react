@@ -2,6 +2,7 @@ import React from 'react';
 
 import '../styles/styles.css';
 
+// to add a new task
 function AddTask({onAddClick, taskName}) {
   const [addTaskIpt, setAddTaskIpt] = React.useState("")
 
