@@ -1,0 +1,97 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+.app {
+  text-align: center;
+  height: 100vh;
+}
+
+.container {
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  display: flex;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.show-text {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.hide-text {
+  display: none;
+}
+
+.text-display-btn {
+  background: #007bff;
+  border: 0;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  cursor: pointer;
+  height: 35px;
+  padding: 4px 16px;
+}
+
+.text-display-container {
+  flex-direction: column;
+  padding: 10px;
+  height: 150px;
+}
+
+.text-display-container p {
+  margin: 0;
+}
+
+.input-clear-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+  width: 600px;
+  height: 75px;
+}
+
+.ipt-clear {
+  border-radius: 4px;
+  font-size: 1.5rem;
+  height: 30px;
+  width: 100%;
+}
+
+.reversed-text-container {
+  flex-direction: column;
+  height: 150px;
+  justify-content: center;
+}
+
+.inner-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.inner-container div {
+  width: 320px;
+}
+
+.sizing-container {
+  flex-direction: column;
+  margin: 10px auto;  
+  padding: 15px;
+}
+
+.sizing-btn button {
+  margin: 10px;
+}
